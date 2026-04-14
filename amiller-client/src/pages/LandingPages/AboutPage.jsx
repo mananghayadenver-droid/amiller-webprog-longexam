@@ -8,7 +8,10 @@ const AboutPage = () => {
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div className="rounded-3xl border-2 border-dashed border-zinc-300 bg-zinc-100 p-6">
             <div className="flex min-h-72 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-              <img src={logo} alt="BulldogEx" className="h-32 w-32 rounded-full border-2 border-zinc-900 bg-zinc-50 object-contain" />
+              <img src={"https://th.bing.com/th?id=OIF.%2b1p4M8HRiOMgcdOW9pgooQ&w=280&h=180&c=7&r=0&o=7&pid=1.7&rm=3"} 
+              
+              className="h-32 w-32 rounded-full border-2 border-zinc-900 bg-zinc-50 object-contain"
+               />
             </div>
           </div>
 
@@ -20,7 +23,7 @@ const AboutPage = () => {
               A campus shop focused on useful products and simple ordering.
             </h1>
             <p className="mt-4 max-w-lg text-sm leading-7 text-zinc-600 sm:text-base">
-              BulldogEx Shop keeps the low-fidelity layout system while presenting clear
+              Readora Shop keeps the low-fidelity layout system while presenting clear
               product categories, quick actions, and straightforward store information.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">

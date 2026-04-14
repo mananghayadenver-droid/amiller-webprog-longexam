@@ -13,7 +13,7 @@ const ProductListPage = () => {
           Shop campus essentials in a simple product grid
         </h1>
         <p className="mt-4 max-w-lg text-sm leading-7 text-zinc-600 sm:text-base">
-          Browse practical items for class, study, commute, and everyday campus routines.
+          Browse prical items for class, study, commute, and everyday campus routines.
         </p>
         <div className="mt-6">
           <Button to="/">Back Home</Button>

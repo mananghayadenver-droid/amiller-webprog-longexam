@@ -7,6 +7,7 @@ const ProductList = ({ products }) => {
         <ProductCard key={product.name} product={product} index={index} />
       ))}
     </div>
+    
   );
 };
 

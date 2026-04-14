@@ -6,7 +6,7 @@ const HomePage = () => {
         <div className="flex w-full flex-col gap-6">
             <section className="relative min-h-[28rem] overflow-hidden border-y-2 border-zinc-900 bg-zinc-900 px-4 py-10 sm:px-6 lg:px-8">
                 <img
-                    src={banner}
+                    src={"https://th.bing.com/th/id/OIP.UeSoOX4R2KNqjrHu6zOT_wHaEK?w=316&h=180&c=7&r=0&o=7&pid=1.7&rm=3"}
                     alt=""
                     className="absolute inset-0 h-full w-full object-cover"
                 />
@@ -18,15 +18,14 @@ const HomePage = () => {
                             Campus Marketplace
                         </p>
                         <h1 className="text-3xl font-bold leading-tight text-zinc-50 sm:text-4xl">
-                            Welcome to BulldogEx Shop
+                            Welcome to Readora Shop 
                         </h1>
                         <p className="mt-4 text-sm leading-7 text-zinc-100 sm:text-base">
-                            Explore campus uniforms, student essentials, and school merch in one
-                            quick storefront.
+                            Where Cartoons are not just film and series but also with lore and nostalgic memories.
                         </p>
                         <div className="mt-6 flex flex-wrap justify-end gap-3">
                             <Button to="/products">
-                                Shop Now
+                                Readora Now
                             </Button>
                             <Button to="/about" variant="primary">
                                 About Store
@@ -85,9 +84,9 @@ const HomePage = () => {
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
                             <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
                         </div>
-                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Daily Essentials</h3>
+                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Daily Dose of Nostalgia</h3>
                         <p className="mt-3 text-sm leading-6 text-zinc-600">
-                            Bags, tumblers, lanyards, and items used every school day.
+                            Comics, stuffed toys, action figure, and items that brought childhood together.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">View Products</Button>
                     </article>
@@ -96,9 +95,9 @@ const HomePage = () => {
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
                             <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
                         </div>
-                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Study Supplies</h3>
+                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Collectible Supplies</h3>
                         <p className="mt-3 text-sm leading-6 text-zinc-600">
-                            Notes, desk tools, and study kits for class and review weeks.
+                            Game Console, Puzzle, and Lego Sets.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">Shop Supplies</Button>
                     </article>
@@ -107,9 +106,9 @@ const HomePage = () => {
                         <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
                             <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
                         </div>
-                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Campus Apparel</h3>
+                        <h3 className="mt-4 text-lg font-semibold text-zinc-900">Readora's Apparel</h3>
                         <p className="mt-3 text-sm leading-6 text-zinc-600">
-                            Comfortable pieces for class days, commute days, and weekends.
+                            Merchendise of the past but with present memories.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">
                             View Apparel
